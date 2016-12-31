@@ -1,0 +1,219 @@
+<!Doctype>
+<html>
+<head>
+
+		<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+	<title>Earth Club - Welcome</title>
+	<script src="../JS/myScript.js"></script> <!--External Javascript on head-->
+
+</head>
+
+<body>
+<div class="body">
+	<div id="heading">
+			<img src="../Graphics/logo.png" style="width:180px;height:150px; 
+												margin-left: 30px;
+												margin-top:  30px;
+												float:    	 left;
+												z-index: 	 1; 
+												position:	 absolute;">
+		<h1>EARTH CLUB </h1>
+		<center><div id="alllink">
+		<ul id="menu">
+			<div class="col-sm-4"> 
+				<li><a href="../index.html" id="home">Home</a></li>
+			</div>
+			<div class="col-sm-4"> 
+				<li><a href="../Webpages/About Us.html" id="aboutus">About Us</a></li>
+			</div>
+			<div class="col-sm-4" >
+				<li><a href="../Webpages/Contact.html" id="contacts">Contacts</a></li>
+			</div>
+		</div></center>
+		</ul>
+	</div>
+	
+	<div id="nav">
+		<div id="nav-wrapper">
+		<ul class="menu">
+			<li> 
+				<a href="../Webpages/Projects.html"> Projects </a> 
+				<ul class="submenu">
+					<li><a href="../Webpages/Projects.html">Overall Project View</a></li>
+					<li><a href="../Webpages/Recycling.html">Recycling</a></li>
+					<li><a href="../Webpages/Cleanupjakarta.html">Clean Up Jakarta</a></li>
+					<li><a href="../Webpages/Aeon.html">Aeon Tree Planting</a></li>
+					<li><a href="../Webpages/garden.html">Organic Garden</a></li>
+				</ul>
+			</li>
+			<li> 
+			<a href="../Webpages/Gallery.html"> Gallery </a> 
+				<ul class="submenu">
+					<li><a href="../Webpages/Gallery.html#recycling">Recycling</a></li>
+					<li><a href="../Webpages/Gallery.html#cleanupjakarta">Clean Up Jakarta 2013</a></li>
+					<li><a href="../Webpages/Gallery.html#aeon">Aeon Tree Planting</a></li>
+					<li><a href="../Webpages/Gallery.html#cleanupjakarta2014">Clean Up Jakarta 2014</a></li>
+					<li><a href="../Webpages/Gallery.html#organicgarden">Organic Garden</a></li>
+				</ul>
+			</li>
+			<li> 
+			<a href="../Webpages/Join.html"> Join Us </a> 
+				<ul class="submenu">
+					<li><a href="../Webpages/members.html">Members</a></li>
+					<li><a href="../Webpages/Contact.html">Contact Us</a></li>
+					<li><a href="../Webpages/idea.html">Give Us Ideas</a></li>
+				</ul>
+			</li>
+		</ul>
+		</div>
+	</div>
+	<br>
+	
+<!--Body-->
+
+<p class="subtitle"> Projects </p>
+<ul class="project_list">
+	<li id="recycling"> Recycling </li>
+		
+			<input type="button" value="Picture" class="javabutton" onclick="myFunction();"/>
+				<!-- Used a Input button to do myFunction()-->
+			
+			<button type="button" class="javabutton"
+			onclick="document.getElementById('demo1').innerHTML = 'We are creating recycling boxes and our goal is to make people have the habit of recycling their trash into the right boxes. we are trying to reduce our large carbon footprint as a direct result of the use of the wide range facilities offered by SWA. '">
+			Description
+			</button>
+				<!-- Used a java button to appear text-->
+		
+		<div class="showingarea">
+			<p id="demo1" class="text"></p>
+					<!--Where the text appears. From empty paragraph tags-->
+			<center>
+			<div class="projectpic" style="display:none;" id="myImage">
+			 	<img class="individualpic" src="../Graphics/Projects/Making recycle boxes/IMG_0220.jpg"/>
+					<!-- For the purpose of css fixed size for all pictures, script will aply to wrapping div-->
+				<div class="galleryLinkButton">
+					<a href="Gallery.html#recycling">More at Galleries</a>  
+					<!--Internal link from another page-->
+				</div>
+			</div>
+			</center>
+		</div>
+  
+  
+  
+  
+
+	<li id="Aeon"> Aeon tree Planting </li>
+			
+			<input type="button" value="Picture" class="javabutton" onclick="Function2();"/>
+				<!-- Used a Input button to do myFunction()-->
+			
+			<button type="button" class="javabutton"
+			onclick="document.getElementById('demo2').innerHTML = 'An activity we participated in 2015 in which Earth Club helped plant trees around Aeon Mall to improve the environments of BSD City.'">
+			Description
+			</button>
+				<!-- Used a java button to appear text-->
+		
+		<div class="showingarea">
+			<p id="demo2" class="text"></p>
+					<!--Where the text appears. From empty paragraph tags-->
+			<center>
+			<div class="projectpic" style="display:none;" id="Image2">
+			 	<img class="individualpic" src="../Graphics/Projects/Aeon/20150419_095647.jpg"/>
+					<!-- For the purpose of css fixed size for all pictures, script will aply to wrapping div-->
+				<div class="galleryLinkButton">
+					<a href="Gallery.html#aeon">More at Galleries</a>  
+					<!--Internal link from another page-->
+				</div>
+			</div>
+			</center>
+		</div>
+		
+	<li id="cleanupjakarta"> Clean Up Jakarta </li>
+			
+			<input type="button" value="Picture" class="javabutton" onclick="Function3();"/>
+				<!-- Used a Input button to do myFunction()-->
+			
+			<button type="button" class="javabutton"
+			onclick="document.getElementById('demo3').innerHTML = 'Clean Up Jakarta is a community aiming at cleaning up Jakarta through awareness. They believe that having one day where lots of volunteers picking up trashes are better than nothing at all.'">
+			Description
+			</button>
+				<!-- Used a java button to appear text-->
+		
+		<div class="showingarea">
+			<p id="demo3" class="text"></p>
+					<!--Where the text appears. From empty paragraph tags-->
+			<center>
+			<div class="projectpic" style="display:none;" id="Image3">
+			 	<img class="individualpic" src="../Graphics/Projects/Clean Up Jakarta 2013/grouppic.jpeg"/>
+					<!-- For the purpose of css fixed size for all pictures, script will aply to wrapping div-->
+				<div class="galleryLinkButton">
+					<a href="Gallery.html#composting">More at Galleries</a>  
+					<!--Internal link from another page-->
+				</div>
+			</div>
+			</center>
+		</div>
+		
+	<li id="garden"> Organic Garden </li>
+			
+			<input type="button" value="Picture" class="javabutton" onclick="Function4();"/>
+				<!-- Used a Input button to do myFunction()-->
+			
+			<button type="button" class="javabutton"
+			onclick="document.getElementById('demo3a').innerHTML = 'The primary goal of this project is to educated ours about the importance of the organic garden by having small sales of the crops in our educational campaign. Through this project, we are trying to reduce our large carbon footprint as a direct result of the use of the wide range facilities offered by SWA'">
+			Description
+			</button>
+				<!-- Used a java button to appear text-->
+		
+		<div class="showingarea">
+			<p id="demo3a" class="text"></p>
+					<!--Where the text appears. From empty paragraph tags-->
+			<center>
+			<div class="projectpic" style="display:none;" id="Image4">
+			 	<img class="individualpic" src="../Graphics/Projects/Organic Garden/L1170474.JPG"/>
+					<!-- For the purpose of css fixed size for all pictures, script will aply to wrapping div-->
+				<div class="galleryLinkButton">
+					<a href="Gallery.html#organicgarden">More at Galleries</a>  
+					<!--Internal link from another page-->
+				</div>
+			</div>
+			</center>
+		</div>
+</ul>
+
+<!--Body-->
+	
+	<div id="footer2">
+		<div id="iconarea">
+			<a href="../Webpages/Contact.html"> 
+				<div class="icon_phone"></div>
+			</a>
+			<p class="icontext"> Contacts </p>
+		</div>	
+		
+		<div id="iconarea">
+			<a href="../index.html"> 
+				<div class="icon_home"></div>
+			</a>
+			<p class="icontext"> Home </p>
+		</div>
+		
+		<div id="iconarea">
+			<a href="../Webpages/Gallery.html"> 
+				<div class="icon_photo"></div>
+			</a>
+			<p class="icontext"> Galleries </p>
+		</div>
+	
+	
+	</div>
+	
+	<div id="footer1">
+		<p id="SWA"> Sinarmas World Academy <br> Established in 2010 </p>
+		
+	</div>
+	
+</div>	
+</body>
+</html>

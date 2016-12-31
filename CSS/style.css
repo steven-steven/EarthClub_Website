@@ -1,0 +1,526 @@
+body{
+	background-color: black;
+	 margin: 0;
+}
+div.body {
+    background-color: FFFFCC;
+    margin:0 auto;
+    padding:0;
+    
+    width: 970px;
+    
+}
+
+div.logo{
+	display: inline-block;
+	height: 170px;
+	width: 21%;
+
+	
+	float: left;
+	-moz-border-radius: 100px; /*Make div circle so fit in the icon*/
+	-webkit-border-radius: 100px;
+	border-radius:100px;
+	
+	position:relative;
+	left: 50px;
+	top: 10px;
+
+	
+	background-image:url(logo.png);
+	background-repeat:no-repeat;
+	background-position: center; 
+
+	background-size: 130%;
+
+	margin:0;
+	padding:0
+}
+div#heading	{
+	background-color: #222;
+	height: auto;
+}
+h1 { 
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 70px;
+	display:block;
+	margin-bottom: 30px;
+}
+div#heading ul li {
+	display:inline-block;
+}
+div.col-sm-4 {
+	padding-bottom: 40px;
+	padding-top: 0px;
+	margin:10px;
+	
+	display:inline-block;
+}
+div#alllink{
+	display: block;
+	padding-right: 30px;     
+	/*make the links go to the left*/
+}
+div#heading ul li a {
+	text-decoration:none;
+	color:black;
+	padding: 15px 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+div#heading ul li a#home {
+	background-color:LightCyan;
+}
+div#heading ul li a#aboutus {
+	background-color:#CCFFCC;
+}
+div#heading ul li a#contacts {
+	background-color:PeachPuff;
+}
+div#heading ul li a:hover {
+	color:white;
+}
+div#heading ul li a#home:hover {
+	background-color: #222;
+}
+div#heading ul li a#aboutus:hover {
+	background-color: #222;
+}
+div#heading ul li a#contacts:hover {
+	background-color: #222;
+}
+
+/*Dropdown*/
+
+div#nav	{
+	background-color:#222;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+}
+div#nav-wrapper	{
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+}
+div#nav-wrapper> ul	>li a{
+	padding: 15px 100px 15px 100px;
+	background-color: BurlyWood;
+	margin: 5px;
+	
+	position: relative;
+	right: 15px;
+}
+#nav ul{
+	list-style-type:none;
+	margin:0;
+	position:relative;
+}
+div#nav ul li{
+	display:inline-block;
+}
+
+#nav ul li a,visited {
+	text-decoration: none;
+	color:black;
+	display:block;
+	padding:20px;
+	font-size: 18px;
+}
+div#nav ul li:hover a	{
+	color:white;
+}
+#nav ul li a:hover{
+	color:#ccc 				
+}
+
+#nav ul li:hover ul{
+	display:block;			
+	/*When we hover first ul-li, something happen in the nested ul
+		which is display:block - display when hover*/
+	background-color: #333;
+	
+	z-index: 1;
+}
+#nav ul li:hover ul a{
+	background-color: #333;
+}
+#nav ul ul {
+	display:none;			 /*HIDDEN*/
+	/*When li not in hover ul is not displayed*/
+	position: absolute;
+	min-width: 200px;
+}	
+#nav ul ul li {
+	display:block;			/*Appears in vertical*/
+}
+#nav ul ul li a:hover {
+	color: #099;
+}
+
+
+/*Dropdown end*/
+
+/*Footers*/
+div#footer2{
+	height: 200px;
+	border: 1px solid black;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 2%;
+}
+div#footer1{
+	height: 100px;
+	background-color: #222;
+	border: 1px solid black;
+	
+}
+
+p.icontext {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+div#iconarea {
+	display: inline-block;
+	height: 160px;
+	width: 21%;
+
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 8px;
+	
+	
+	-moz-border-radius: 100px; /*Make div circle so fit in the icon*/
+	-webkit-border-radius: 100px;
+	border-radius:100px;
+	
+}
+p#SWA {
+	color: rgb(100,100,100);
+	text-align:center;
+	font-size: 18px;
+}
+
+
+div.icon_phone{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	background-image:url(../Graphics/Phone.png);
+	background-repeat:no-repeat;
+    background-position: center; 
+	background-size: 80%;
+	font-size:1em;
+	margin:0;
+	padding:0
+}
+div.icon_phone:hover{
+	background-image:url(../Graphics/Phone_hover.png);
+}
+div.icon_home{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	background-image:url(../Graphics/Home.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 85%;
+	font-size:1em;
+	margin:0;
+	padding:0
+}
+div.icon_home:hover{
+	background-image:url(../Graphics/Home_hover.png);
+}
+div.icon_photo{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	background-image:url(../Graphics/Photo.png);
+	background-repeat:no-repeat;
+	background-position: center; 
+
+	background-size: 80%;
+	font-size:1em;
+	margin:0;
+	padding:0
+}
+div.icon_photo:hover{
+	background-image:url(../Graphics/Photo_hover.png);
+}
+
+/*Footers end*/
+
+
+														/*Home*/
+
+div#box75{
+	display: inline-block;
+	height: auto;
+	background-color: rgb(51,51,51);
+	border-top: 25px solid white;
+	outline: 3px solid black;
+	text-align: left;
+	width: 75%;
+	margin-bottom: 30px;
+	
+}
+div#textbox{
+	display: inline-block;
+	float:left;
+	color: white;
+	width: 60%;
+	padding-left: 15px;
+}
+div#quiz {
+
+	float:left;
+
+	display: inline-block;
+	height: auto;
+	width: 200px;
+	border: 10px solid black;
+	outline: 2px dashed brown;
+	
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	background-color: white;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+input{
+	width:70%;
+}
+
+.oval {
+	width: 28px;
+	height: 12px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	
+	/*Position*/
+	z-index: 0;
+	position: relative;
+	bottom: 21px;
+	left: 95%;
+}
+								
+								/*2nd Block*/
+
+div#box50{
+	display: inline-block;
+	height: auto;
+	background-color: rgb(51,51,51);
+	border-top: 25px solid white;
+	outline: 3px solid black;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	
+	width: 68%;
+	margin-right: 50px;
+	/*float: right;*/
+	/* The problem is float. With float, the div is not displayed a block*/
+	position: relative;
+	left: 26%;
+	/* Solution: Using position relative to the normal position*/
+	
+	margin-bottom: 30px;
+	display: inline-block;
+	
+	
+}
+
+div#textbox50{
+	color: white;
+	padding-left: 15px;
+	float:left;
+}
+#description50{
+	text-align: right;
+}
+img#grouppic{
+	height:230px;
+	width:310px;
+	display: inline-block;
+	float: left;
+	
+	padding-top: 2%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+
+}
+							/*END 2nd Block*/
+
+														/*END Home*/
+														
+														
+														
+/*PROJECTS*//*PROJECTS*//*PROJECTS*//*PROJECTS*//*PROJECTS*//*PROJECTS*/														
+														
+														
+														
+p.subtitle{
+	font-size: 38px;
+	margin-left: 80px;
+	margin-bottom: 30px;
+}
+ul.project_list{
+	font-size: 20px;
+	margin-left: 90px;
+	margin-top: 0px;
+	
+}
+.javabutton{
+	width: 90px;	/*Modify size*/
+
+							/* Position buttons*/
+	position: relative;
+	bottom:10px;
+	left: 175px;
+	
+	border: 1px solid black;
+	
+}
+button.javabutton{
+	left: 80px;   /* Uniquely style description button, make it on top of picture*/
+	bottom:35px;
+}
+div.showingarea{
+	width: 800px;
+
+}
+div.projectpic{
+	width: 390px;
+	height: 270px;    /*This Height & Width only appears when
+						 button clicked (AKA. No Space Wasted)*/
+	border: 5px solid black;
+	
+}
+img.individualpic{
+	width: 100%;
+	height: 100%;
+}
+div.galleryLinkButton a{ /*More at Galleries Link*/
+	width: 20px;
+	height: 30px;
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	background-color: #66CC00;
+	padding: 5px;
+	
+	position: relative;
+	bottom:25px;
+	left: 300px;
+	
+}
+div.galleryLinkButton a:hover{
+	background-color: DimGray;
+	color: white;
+}
+.text{
+	font-size: 18px;
+	text-align: left;
+}
+
+
+/*About Us*//*About Us*//*About Us*//*About Us*//*About Us*//*About Us*/														
+/*************************************************************************/
+
+
+p.bigheading{
+	font-size: 30px;
+	margin-left: 100px;
+}
+
+
+
+div#blackvideobackground{
+	background-color: black;
+	height: auto;
+	width: 80%;
+	margin: 0 auto;
+}	
+iframe#vid{
+	width: 80%;
+	border: 1px solid black;
+	margin: 30px;
+}
+
+
+
+
+
+div.smalltextbox{
+	display: inline-block;
+	height: auto;
+	width: 39%;
+
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 8px;
+	
+	border: 1px solid black; 
+	/*Put border for easy positioning display*/
+	
+	font-size: 18px;
+	text-align: left;
+	border: 1px solid black; 
+}
+p.textboxtext{
+	padding: 5px;
+	
+}
+ul.bullets{
+	text-align: left;
+}
+
+
+/*Idea*//*Idea*//*Idea*//*Ideas*//*Idea*//*Idea*/														
+/*************************************************************************/
+
+textarea#idea{
+	width:550px;
+	height: 200px;
+}
+button.ideabutton{
+	width:60px;
+	height:30px;
+	position: relative;
+	top:25px;
+	right: 100px;
+}
+
+/*Members*//*Members*//*Members*//*Members*//*Members*//*Members*/														
+/*************************************************************************/
+table.members, th, tr, td{
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+table.members{
+	width: 700px;
+	height: auto;
+}
+table.members th{
+	background-color: #66FF99;
+	
+}
+table.members th, tr, td{
+	padding: 20px;
+	
+}
